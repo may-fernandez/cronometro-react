@@ -1,0 +1,63 @@
+body{
+  display: flex;
+  margin: 5rem;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, hsl(188, 82%, 96%), hsl(188, 83%, 91%));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cronometro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+
+.controles button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.btn-empezar{
+  background-color: hsl(126, 79%, 26%);
+}
+.btn-empezar:hover{
+  background-color: hsl(126, 79%, 36%);
+}
+
+.btn-parar{
+  background-color: hsl(0, 100%, 30%);
+}
+.btn-parar:hover{
+  background-color: hsl(0, 100%, 40%);
+}
+
+.btn-reiniciar{
+  background-color: hsl(199, 100%, 30%);
+}
+.btn-reiniciar:hover{
+  background-color: hsl(199, 100%, 40%);
+}
